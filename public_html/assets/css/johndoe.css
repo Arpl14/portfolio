@@ -11723,13 +11723,21 @@ pre .code {
 }
 
 
-
+/* 
 .tech-icons img {
   height: 2rem;
   width: auto;
   vertical-align: middle;
   transition: transform 0.2s ease-in-out;
   object-fit: contain;
+}
+ */
+.tech-icons i {
+  font-size: 2rem;
+  transition: transform 0.2s ease-in-out;
+}
+.tech-icons i:hover {
+  transform: scale(1.2);
 }
 
 
