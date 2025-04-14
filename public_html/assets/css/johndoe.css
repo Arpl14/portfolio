@@ -11744,6 +11744,10 @@ pre .code {
   transform: scale(1.2);
 }
 
+.extra-icon {
+  height: 2rem;
+  width: auto;
+}
 .flex-nowrap {
   display: flex;
   flex-wrap: nowrap;
