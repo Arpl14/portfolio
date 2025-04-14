@@ -11721,14 +11721,19 @@ pre .code {
   object-fit: contain; /* Keeps aspect ratio */
   display: block;
 }
-
-.tech-icons i {
-  font-size: 2rem;
+.tech-icons i,
+.tech-icons img {
+  height: 2rem;               /* Match height to 2rem for uniformity */
+  margin: 0 8px;
+  vertical-align: middle;
   transition: transform 0.2s ease-in-out;
 }
-.tech-icons i:hover {
+
+.tech-icons i:hover,
+.tech-icons img:hover {
   transform: scale(1.2);
 }
+
 
 
 .flex-nowrap {
