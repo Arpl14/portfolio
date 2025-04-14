@@ -11723,31 +11723,18 @@ pre .code {
 }
 
 
-.tech-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.75rem;
-}
 
-.tech-icons i,
 .tech-icons img {
-  font-size: 2rem;         /* for devicons */
-  height: 2rem;            /* for image icons */
+  height: 2rem;
   width: auto;
   vertical-align: middle;
   transition: transform 0.2s ease-in-out;
 }
 
-.tech-icons i:hover,
-.tech-icons img:hover {
-  transform: scale(1.2);
-}
 
-.extra-icon {
-  height: 2rem;
-  width: auto;
-}
+
+
+
 .flex-nowrap {
   display: flex;
   flex-wrap: nowrap;
