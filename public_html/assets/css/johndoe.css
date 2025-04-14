@@ -11729,6 +11729,7 @@ pre .code {
   width: auto;
   vertical-align: middle;
   transition: transform 0.2s ease-in-out;
+  object-fit: contain;
 }
 
 
