@@ -11721,10 +11721,13 @@ pre .code {
   object-fit: contain; /* Keeps aspect ratio */
   display: block;
 }
+
+
 .tech-icons i,
 .tech-icons img {
-  height: 2rem;               /* Match height to 2rem for uniformity */
-  margin: 0 8px;
+  height: 2rem;
+  width: auto;
+  margin: 0 6px;
   vertical-align: middle;
   transition: transform 0.2s ease-in-out;
 }
@@ -11733,8 +11736,6 @@ pre .code {
 .tech-icons img:hover {
   transform: scale(1.2);
 }
-
-
 
 .flex-nowrap {
   display: flex;
