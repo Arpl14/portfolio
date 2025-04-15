@@ -11724,31 +11724,29 @@ pre .code {
 
 
 
-
-
 .tech-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 .tech-icons i {
-  font-size: 2.5rem;
+  font-size: 2rem;
   transition: transform 0.2s ease-in-out;
 }
 
 .tech-icons img {
-  height: 2.5rem;
-  width: 2.5rem; /* This makes it square and forces Power BI logo to be the same size */
+  height: 2rem;
+  width: 2rem; /* This makes it square and forces Power BI logo to be the same size */
   object-fit: contain;
   transition: transform 0.2s ease-in-out;
 }
 
 .tech-icons i:hover,
 .tech-icons img:hover {
-/*   transform: scale(1.2); */
+  transform: scale(1.2);
 }
 
 
