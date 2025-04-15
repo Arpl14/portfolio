@@ -11723,7 +11723,6 @@ pre .code {
 }
 
 
-
 .tech-icons {
   display: flex;
   flex-wrap: wrap;
@@ -11739,7 +11738,8 @@ pre .code {
 
 .tech-icons .tech-img {
   height: 2.5rem !important;
-  width: 2.5rem !important;
+  width: auto !important;
+  max-width: 100%;
   object-fit: contain;
   transition: transform 0.2s ease-in-out;
   display: inline-block;
@@ -11749,7 +11749,6 @@ pre .code {
 .tech-icons .tech-img:hover {
   transform: scale(1.2);
 }
-
 
 
 .flex-nowrap {
