@@ -11723,6 +11723,9 @@ pre .code {
 }
 
 
+
+
+
 .tech-icons {
   display: flex;
   flex-wrap: wrap;
@@ -11736,19 +11739,20 @@ pre .code {
   transition: transform 0.2s ease-in-out;
 }
 
-.tech-icons .tech-img {
-  height: 2.5rem !important;
-  width: auto !important;
-  max-width: 100%;
+.tech-icons img {
+  height: 2.5rem;
+  width: 2.5rem; /* This makes it square and forces Power BI logo to be the same size */
   object-fit: contain;
   transition: transform 0.2s ease-in-out;
-  display: inline-block;
 }
 
 .tech-icons i:hover,
-.tech-icons .tech-img:hover {
-  transform: scale(1.2);
+.tech-icons img:hover {
+/*   transform: scale(1.2); */
 }
+
+
+
 
 
 .flex-nowrap {
