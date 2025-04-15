@@ -11738,10 +11738,11 @@ pre .code {
 }
 
 .tech-icons .tech-img {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2.5rem !important;
+  width: 2.5rem !important;
   object-fit: contain;
   transition: transform 0.2s ease-in-out;
+  display: inline-block;
 }
 
 .tech-icons i:hover,
