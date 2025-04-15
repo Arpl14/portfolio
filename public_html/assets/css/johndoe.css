@@ -11729,17 +11729,17 @@ pre .code {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .tech-icons i {
-  font-size: 2rem;
+  font-size: 3rem;
   transition: transform 0.2s ease-in-out;
 }
 
 .tech-icons img {
-  height: 2rem;
-  width: 2rem; /* This makes it square and forces Power BI logo to be the same size */
+  height: 3rem;
+  width: 3rem; /* This makes it square and forces Power BI logo to be the same size */
   object-fit: contain;
   transition: transform 0.2s ease-in-out;
 }
