@@ -11722,24 +11722,30 @@ pre .code {
   display: block;
 }
 
-
-/* 
-.tech-icons img {
-  height: 2rem;
-  width: auto;
-  vertical-align: middle;
-  transition: transform 0.2s ease-in-out;
-  object-fit: contain;
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
 }
- */
+
 .tech-icons i {
   font-size: 2rem;
   transition: transform 0.2s ease-in-out;
 }
-.tech-icons i:hover {
-  transform: scale(1.2);
+
+.tech-icons img {
+  height: 2rem;
+  width: 2rem; /* This makes it square and forces Power BI logo to be the same size */
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out;
 }
 
+.tech-icons i:hover,
+.tech-icons img:hover {
+  transform: scale(1.2);
+}
 
 
 
