@@ -11724,23 +11724,22 @@ pre .code {
 
 
 
-
 .tech-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1rem; /* slightly more space between icons */
+  gap: 1.5rem;
 }
 
 .tech-icons i {
-  font-size: 2.5rem; /* increased from 2rem */
+  font-size: 3rem;
   transition: transform 0.2s ease-in-out;
 }
 
 .tech-icons img {
-  height: 2.5rem;  /* increased from 2rem */
-  width: 2.5rem;
+  height: 3rem;
+  width: 3rem; /* This makes it square and forces Power BI logo to be the same size */
   object-fit: contain;
   transition: transform 0.2s ease-in-out;
 }
