@@ -11516,6 +11516,10 @@ pre .code {
   color: #fff;
 }
 
+.header-content {
+    padding-left: 60px;  /* Or use margin-left: 60px; if preferred */
+}
+
 .header .container {
   position: relative;
   height: 100%;
